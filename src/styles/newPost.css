@@ -1,0 +1,60 @@
+.newPost .publish .one {
+  background-color: #E9EFF3;
+  width: 10rem;
+  text-align: center;
+  justify-content: center;
+  font-weight: bolder;
+}
+.newPost .publish .two {
+  color: white;
+  width: 10rem;
+}
+.newPost .publish .two.btn-primary {
+  background-color: #093D9F;
+}
+.newPost .publish .two.btn-secondary {
+  background-color: rgba(9, 62, 159, 0.6862745098);
+}
+.newPost input {
+  height: 8rem;
+  background-color: #E5E7EB;
+  border: none;
+}
+.newPost input[type=file] {
+  display: none;
+}
+.newPost h1 {
+  font-family: Sora;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.6px;
+  text-align: center;
+  color: #6B7280;
+}
+.newPost .FaArrowLeft {
+  width: 17.01px;
+  height: 14.02px;
+  top: 2.99px;
+  left: 1.32px;
+  gap: 0px;
+  opacity: 0px;
+  color: #6B7280;
+}
+.newPost .blog {
+  text-align: left;
+}
+.newPost .blog h1 {
+  text-align: left;
+  font-size: xx-large;
+}
+.newPost .blog input {
+  height: 3rem;
+  background-color: transparent;
+  padding-left: 0;
+}
+.newPost .blog textarea {
+  min-height: 50vh;
+  background-color: transparent;
+  border: none;
+  padding-left: 0;
+}/*# sourceMappingURL=newPost.css.map */

@@ -1,0 +1,67 @@
+.newPost{
+
+    .publish{
+        .one{
+            background-color: #E9EFF3;
+            width: 10rem;
+            text-align: center;
+            justify-content: center;
+            font-weight: bolder;
+        }
+        .two{
+            color: #ffff;
+            width: 10rem;
+        }
+
+        .two.btn-primary{
+            background-color: #093D9F;
+        }
+        .two.btn-secondary{
+            background-color: #093e9faf;
+        }
+    }
+
+    input{
+        height: 8rem;
+        background-color: #E5E7EB;
+        border: none;
+    }
+    input[type="file"] {
+        display: none;
+    }
+    h1{
+        font-family: Sora;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 21.6px;
+        text-align: center;
+        color: #6B7280;
+    }
+    .FaArrowLeft{
+        width: 17.01px;
+        height: 14.02px;
+        top: 2.99px;
+        left: 1.32px;
+        gap: 0px;
+        opacity: 0px;
+        color: #6B7280;
+    }
+    .blog{
+        text-align: left;
+        h1{
+            text-align: left;
+            font-size: xx-large;
+        }
+        input{
+            height: 3rem;
+            background-color: transparent;
+            padding-left: 0;
+        }
+        textarea{
+            min-height: 50vh;
+            background-color: transparent;
+            border: none;
+            padding-left: 0;
+        }
+    }
+}

@@ -1,0 +1,84 @@
+section a {
+  text-decoration: none;
+  color: currentColor;
+}
+section a span {
+  color: #093D9F;
+  font-weight: bolder;
+}
+section form label {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.6px;
+  text-align: left;
+}
+section form div .forgotPassword {
+  color: #093D9F;
+  font-weight: bold;
+}
+section form input::-moz-placeholder {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+}
+section form input::placeholder {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+}
+section form button {
+  border: none;
+  background-color: transparent;
+}
+section form .fullname input {
+  padding: 16px 10px 16px 10px;
+  height: 48px;
+}
+section form .email input {
+  padding: 16px 10px 16px 10px;
+  height: 48px;
+}
+section form .input {
+  border: 1px solid #D1D5DB;
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+section form .input input {
+  border: none;
+  height: 48px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: transparent;
+}
+section form .password button {
+  color: #6B7280;
+}
+section form .verify input[type=radio] {
+  width: 15px;
+  height: 15px;
+}
+section form .submit {
+  background-color: #E9EFF3;
+}
+section form .submit .btn:hover {
+  background-color: #E9EFF3;
+}
+section form .login {
+  background-color: #093D9F;
+}
+section form .login button {
+  font-weight: bold;
+}
+section form .login .btn:hover {
+  background-color: #093D9F;
+}
+
+@media (min-width: 992px) {
+  section {
+    height: 100vh;
+  }
+}/*# sourceMappingURL=signup.css.map */

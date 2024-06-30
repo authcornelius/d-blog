@@ -1,0 +1,89 @@
+.display {
+  border: 3px solid #3B099F;
+  border-radius: 100%;
+}
+
+.bell {
+  width: 16.62px;
+  height: 18px;
+  color: #6B7280;
+}
+
+.a {
+  color: #6B7280;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 15px;
+  position: relative;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #093D9F;
+}
+
+.nav-link.active::after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #093D9F;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn-blue {
+  background-color: #093D9F;
+  color: white;
+  font-weight: bold;
+  width: 5rem auto;
+}
+
+@media (min-width: 992px) {
+  .border-top-lg {
+    border-top: 1px solid #dee2e6;
+  }
+}
+.search {
+  border: 1px solid #D1D5DB;
+}
+.search button {
+  border: none;
+  background-color: white;
+}
+.search button .FaSearch {
+  color: #6B7280;
+}
+.search input {
+  height: 2rem;
+  border: none;
+  background-color: white;
+}
+
+select {
+  border: none;
+}
+
+.cards h2 {
+  font-family: Sora;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}/*# sourceMappingURL=Home.css.map */

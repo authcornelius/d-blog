@@ -1,0 +1,94 @@
+section{
+    a{
+        text-decoration: none;
+        color: currentColor;
+        span{
+            color: #093D9F;
+            font-weight: bolder;
+
+        }
+    }
+    form{
+        label{
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 21.6px;
+            text-align: left;
+        }
+        div{
+            .forgotPassword{
+                color: #093D9F;
+                font-weight: bold;
+            }
+        }
+        input::placeholder{
+            font-family: Inter;
+            font-size: 12px;
+            font-weight: 400;
+            text-align: left;            
+        }
+        button{
+            border: none;
+            background-color: transparent;
+        }
+        .fullname{
+            input{
+                padding: 16px 10px 16px 10px;
+                height: 48px;
+            }
+        }
+        .email{
+            input{
+                padding: 16px 10px 16px 10px;
+                height: 48px;
+            }
+        }
+        .input{
+            border: 1px solid#D1D5DB;
+            border-radius: 4px;
+            padding-left: 10px;
+            padding-right: 10px;
+            input{
+                border: none;
+                height: 48px;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                background-color: transparent;
+            }
+        }
+        .password{
+            button{
+                color: #6B7280;
+            }
+        }
+        .verify{
+            input[type="radio"]{
+                width: 15px;
+                height: 15px;
+            }
+        }
+        .submit{
+            background-color: #E9EFF3;
+            .btn:hover{
+                background-color: #E9EFF3;
+            }
+        }
+
+        .login{
+            background-color: #093D9F;
+            button{
+                font-weight: bold;
+            }
+            .btn:hover{
+                background-color: #093D9F;
+            }
+        }
+        
+    }
+}
+@media (min-width: 992px) {
+    section{
+        height: 100vh;
+    }
+}
