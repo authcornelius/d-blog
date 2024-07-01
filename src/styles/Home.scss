@@ -85,3 +85,13 @@ select{
     text-align: left;
   }
 }
+.newPost {
+  .btn{
+    background-color: #093D9F;
+    color: #ffff;
+    :hover{
+      background-color: #093D9F;
+      color: #ffff;
+    }
+  }
+}

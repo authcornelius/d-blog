@@ -97,8 +97,8 @@ function Home() {
           </div>
 
           <div className='col-6 text-end'>
-            <Link to='/newpost'>
-              <button className='btn btn-lg btn-blue'>
+            <Link to='/newpost' className='newPost'>
+              <button className='btn btn-lg'>
                 Create New Post
               </button>
             </Link>

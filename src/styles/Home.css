@@ -86,4 +86,13 @@ select {
   font-weight: 600;
   line-height: 24px;
   text-align: left;
+}
+
+.newPost .btn {
+  background-color: #093D9F;
+  color: white;
+}
+.newPost .btn :hover {
+  background-color: #093D9F;
+  color: white;
 }/*# sourceMappingURL=Home.css.map */

@@ -47,10 +47,13 @@ function NewPost() {
       </div>
 
       <div className='container'>
-        <label htmlFor="image" className="custom-file-upload">
-          <FaUpload /> Choose an image
-        </label>
-        <input type="file" id="image" name="image" accept="image/*" className='d-flex justify-content-center col-12'/>
+        <div className=' d-flex justify-content-center'>
+            <label htmlFor="image" className="custom-file-upload">
+                <FaUpload />
+            </label>
+            
+            <input type="file" placeholder='Add Header Image' id="image" name="image" accept="image/*" className='d-flex justify-content-center col-12'/>
+        </div>
       </div>
 
       <div className='container blog mt-5'>

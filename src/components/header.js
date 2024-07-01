@@ -1,34 +1,42 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import Logo from '../assets/DBlog.png';
 import { FaRegBell } from 'react-icons/fa';
 import Avatar from '../assets/avatar.png';
 
 function Header() {
   return (
-    <nav className="navbar navbar-expand-lg">
-        <div className="container-fluid mb-3 mx-lg-5">
+    <div>
+      <nav className="navbar navbar-expand-lg mx-lg-5 mt-3">
+        <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             <img src={Logo} alt="logo" />
           </Link>
-
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon" />
           </button>
-
-          <div className="d-flex justify-content-end collapse navbar-collapse" id="navbarToggler">
-            <div className="d-flex mobile">
-              <div className="m-3 justify-content-center d-flex">
+          <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <div className="d-flex align-items-center">
+              <div className="me-3">
                 <FaRegBell className="bell" />
               </div>
-              <div className="display p-1">
+              <div className="p-1 display">
                 <img src={Avatar} alt="display" className="rounded border-3" />
               </div>
             </div>
           </div>
         </div>
-    </nav>
-  )
+      </nav>
+    </div>
+  );
 }
 
 export default Header;
