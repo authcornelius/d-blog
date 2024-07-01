@@ -9,6 +9,7 @@
 .newPost .publish .two {
   color: white;
   width: 10rem;
+  border: none;
 }
 .newPost .publish .two.btn-primary {
   background-color: #093D9F;
